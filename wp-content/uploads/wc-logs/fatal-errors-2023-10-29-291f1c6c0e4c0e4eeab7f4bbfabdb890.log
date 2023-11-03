@@ -1,0 +1,107 @@
+2023-10-29T11:22:47+00:00 CRITICAL syntax error, unexpected end of file in /var/www/testapp/wp-content/themes/storefront/functions.php on line 131
+
+2023-10-29T15:45:11+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "customJavascript" not found or invalid function name in /var/www/testapp/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/testapp/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#1 /var/www/testapp/wp-includes/plugin.php(517): WP_Hook->do_action()
+#2 /var/www/testapp/wp-includes/script-loader.php(2225): do_action()
+#3 /var/www/testapp/wp-includes/class-wp-hook.php(310): wp_enqueue_scripts()
+#4 /var/www/testapp/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /var/www/testapp/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /var/www/testapp/wp-includes/general-template.php(3053): do_action()
+#7 /var/www/testapp/wp-content/themes/storefront/header.php(18): wp_head()
+#8 /var/www/testapp/wp-includes/template.php(785): require_once('...')
+#9 /var/www/testapp/wp-includes/template.php(720): load_template()
+#10 /var/www/testapp/wp-includes/general-template.php(48): locate_template()
+#11 /var/www/testapp/wp-content/plugins/woocommerce/templates/archive-product.php(20): get_header()
+#12 /var/www/testapp/wp-includes/template-loader.php(106): include('...')
+#13 /var/www/testapp/wp-blog-header.php(19): require_once('...')
+#14 /var/www/testapp/index.php(18): require('...')
+#15 {main}
+  thrown in /var/www/testapp/wp-includes/class-wp-hook.php on line 310
+
+2023-10-29T15:45:19+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "customJavascript" not found or invalid function name in /var/www/testapp/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/testapp/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#1 /var/www/testapp/wp-includes/plugin.php(517): WP_Hook->do_action()
+#2 /var/www/testapp/wp-includes/script-loader.php(2225): do_action()
+#3 /var/www/testapp/wp-includes/class-wp-hook.php(310): wp_enqueue_scripts()
+#4 /var/www/testapp/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /var/www/testapp/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /var/www/testapp/wp-includes/general-template.php(3053): do_action()
+#7 /var/www/testapp/wp-content/themes/storefront/header.php(18): wp_head()
+#8 /var/www/testapp/wp-includes/template.php(785): require_once('...')
+#9 /var/www/testapp/wp-includes/template.php(720): load_template()
+#10 /var/www/testapp/wp-includes/general-template.php(48): locate_template()
+#11 /var/www/testapp/wp-content/themes/storefront/index.php(14): get_header()
+#12 /var/www/testapp/wp-includes/template-loader.php(106): include('...')
+#13 /var/www/testapp/wp-blog-header.php(19): require_once('...')
+#14 /var/www/testapp/index.php(18): require('...')
+#15 {main}
+  thrown in /var/www/testapp/wp-includes/class-wp-hook.php on line 310
+
+2023-10-29T15:45:50+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "customJavascript" not found or invalid function name in /var/www/testapp/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/testapp/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#1 /var/www/testapp/wp-includes/plugin.php(517): WP_Hook->do_action()
+#2 /var/www/testapp/wp-includes/script-loader.php(2225): do_action()
+#3 /var/www/testapp/wp-includes/class-wp-hook.php(310): wp_enqueue_scripts()
+#4 /var/www/testapp/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /var/www/testapp/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /var/www/testapp/wp-includes/general-template.php(3053): do_action()
+#7 /var/www/testapp/wp-content/themes/storefront/header.php(18): wp_head()
+#8 /var/www/testapp/wp-includes/template.php(785): require_once('...')
+#9 /var/www/testapp/wp-includes/template.php(720): load_template()
+#10 /var/www/testapp/wp-includes/general-template.php(48): locate_template()
+#11 /var/www/testapp/wp-content/themes/storefront/index.php(14): get_header()
+#12 /var/www/testapp/wp-includes/template-loader.php(106): include('...')
+#13 /var/www/testapp/wp-blog-header.php(19): require_once('...')
+#14 /var/www/testapp/index.php(18): require('...')
+#15 {main}
+  thrown in /var/www/testapp/wp-includes/class-wp-hook.php on line 310
+
+2023-10-29T15:46:24+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "customJavascript" not found or invalid function name in /var/www/testapp/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/testapp/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#1 /var/www/testapp/wp-includes/plugin.php(517): WP_Hook->do_action()
+#2 /var/www/testapp/wp-includes/script-loader.php(2225): do_action()
+#3 /var/www/testapp/wp-includes/class-wp-hook.php(310): wp_enqueue_scripts()
+#4 /var/www/testapp/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /var/www/testapp/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /var/www/testapp/wp-includes/general-template.php(3053): do_action()
+#7 /var/www/testapp/wp-content/themes/storefront/header.php(18): wp_head()
+#8 /var/www/testapp/wp-includes/template.php(785): require_once('...')
+#9 /var/www/testapp/wp-includes/template.php(720): load_template()
+#10 /var/www/testapp/wp-includes/general-template.php(48): locate_template()
+#11 /var/www/testapp/wp-content/themes/storefront/index.php(14): get_header()
+#12 /var/www/testapp/wp-includes/template-loader.php(106): include('...')
+#13 /var/www/testapp/wp-blog-header.php(19): require_once('...')
+#14 /var/www/testapp/index.php(18): require('...')
+#15 {main}
+  thrown in /var/www/testapp/wp-includes/class-wp-hook.php on line 310
+
+2023-10-29T18:23:49+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_post_meta() in /var/www/testapp/wp-content/themes/storefront/functions.php:163
+Stack trace:
+#0 /var/www/testapp/wp-includes/class-wp-hook.php(310): production_time()
+#1 /var/www/testapp/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 /var/www/testapp/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /var/www/testapp/wp-content/plugins/woocommerce/templates/single-product/add-to-cart/simple.php(30): do_action()
+#4 /var/www/testapp/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('...')
+#5 /var/www/testapp/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1711): wc_get_template()
+#6 /var/www/testapp/wp-includes/class-wp-hook.php(310): woocommerce_simple_add_to_cart()
+#7 /var/www/testapp/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#8 /var/www/testapp/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /var/www/testapp/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1702): do_action()
+#10 /var/www/testapp/wp-includes/class-wp-hook.php(310): woocommerce_template_single_add_to_cart()
+#11 /var/www/testapp/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#12 /var/www/testapp/wp-includes/plugin.php(517): WP_Hook->do_action()
+#13 /var/www/testapp/wp-content/plugins/woocommerce/templates/content-single-product.php(60): do_action()
+#14 /var/www/testapp/wp-includes/template.php(787): require('...')
+#15 /var/www/testapp/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#16 /var/www/testapp/wp-content/plugins/woocommerce/templates/single-product.php(37): wc_get_template_part()
+#17 /var/www/testapp/wp-includes/template-loader.php(106): include('...')
+#18 /var/www/testapp/wp-blog-header.php(19): require_once('...')
+#19 /var/www/testapp/index.php(18): require('...')
+#20 {main}
+  thrown in /var/www/testapp/wp-content/themes/storefront/functions.php on line 163
+

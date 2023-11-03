@@ -1,0 +1,292 @@
+2023-11-02T10:42:06+00:00 CRITICAL syntax error, unexpected variable "$error_pweight" in /var/www/testapp/wp-content/themes/storefront/functions.php on line 380
+
+2023-11-02T10:42:09+00:00 CRITICAL syntax error, unexpected variable "$error_pweight" in /var/www/testapp/wp-content/themes/storefront/functions.php on line 380
+
+2023-11-02T10:42:15+00:00 CRITICAL syntax error, unexpected variable "$error_pweight" in /var/www/testapp/wp-content/themes/storefront/functions.php on line 380
+
+2023-11-02T10:42:17+00:00 CRITICAL syntax error, unexpected variable "$error_pweight" in /var/www/testapp/wp-content/themes/storefront/functions.php on line 380
+
+2023-11-02T10:42:17+00:00 CRITICAL syntax error, unexpected variable "$error_pweight" in /var/www/testapp/wp-content/themes/storefront/functions.php on line 380
+
+2023-11-02T10:42:34+00:00 CRITICAL syntax error, unexpected variable "$error_pweight" in /var/www/testapp/wp-content/themes/storefront/functions.php on line 380
+
+2023-11-02T10:42:53+00:00 CRITICAL syntax error, unexpected variable "$error_pweight" in /var/www/testapp/wp-content/themes/storefront/functions.php on line 380
+
+2023-11-02T11:45:27+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /var/www/testapp/wp-content/themes/storefront/functions.php:355
+Stack trace:
+#0 /var/www/testapp/wp-includes/shortcodes.php(433): createProduct()
+#1 [internal function]: do_shortcode_tag()
+#2 /var/www/testapp/wp-includes/shortcodes.php(273): preg_replace_callback()
+#3 /var/www/testapp/wp-includes/class-wp-hook.php(310): do_shortcode()
+#4 /var/www/testapp/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#5 /var/www/testapp/wp-includes/post-template.php(256): apply_filters()
+#6 /var/www/testapp/wp-content/themes/storefront/inc/storefront-template-functions.php(352): the_content()
+#7 /var/www/testapp/wp-includes/class-wp-hook.php(310): storefront_page_content()
+#8 /var/www/testapp/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#9 /var/www/testapp/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /var/www/testapp/wp-content/themes/storefront/content-page.php(18): do_action()
+#11 /var/www/testapp/wp-includes/template.php(787): require('...')
+#12 /var/www/testapp/wp-includes/template.php(720): load_template()
+#13 /var/www/testapp/wp-includes/general-template.php(206): locate_template()
+#14 /var/www/testapp/wp-content/themes/storefront/page.php(24): get_template_part()
+#15 /var/www/testapp/wp-includes/template-loader.php(106): include('...')
+#16 /var/www/testapp/wp-blog-header.php(19): require_once('...')
+#17 /var/www/testapp/index.php(18): require('...')
+#18 {main}
+  thrown in /var/www/testapp/wp-content/themes/storefront/functions.php on line 355
+
+2023-11-02T13:37:18+00:00 CRITICAL Uncaught Error: Call to a member function update_meta_data() on array in /var/www/testapp/wp-content/themes/storefront/functions.php:340
+Stack trace:
+#0 /var/www/testapp/wp-includes/shortcodes.php(433): createProduct()
+#1 [internal function]: do_shortcode_tag()
+#2 /var/www/testapp/wp-includes/shortcodes.php(273): preg_replace_callback()
+#3 /var/www/testapp/wp-includes/class-wp-hook.php(310): do_shortcode()
+#4 /var/www/testapp/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#5 /var/www/testapp/wp-includes/post-template.php(256): apply_filters()
+#6 /var/www/testapp/wp-content/themes/storefront/inc/storefront-template-functions.php(352): the_content()
+#7 /var/www/testapp/wp-includes/class-wp-hook.php(310): storefront_page_content()
+#8 /var/www/testapp/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#9 /var/www/testapp/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /var/www/testapp/wp-content/themes/storefront/content-page.php(18): do_action()
+#11 /var/www/testapp/wp-includes/template.php(787): require('...')
+#12 /var/www/testapp/wp-includes/template.php(720): load_template()
+#13 /var/www/testapp/wp-includes/general-template.php(206): locate_template()
+#14 /var/www/testapp/wp-content/themes/storefront/page.php(24): get_template_part()
+#15 /var/www/testapp/wp-includes/template-loader.php(106): include('...')
+#16 /var/www/testapp/wp-blog-header.php(19): require_once('...')
+#17 /var/www/testapp/index.php(18): require('...')
+#18 {main}
+  thrown in /var/www/testapp/wp-content/themes/storefront/functions.php on line 340
+
+2023-11-02T13:37:34+00:00 CRITICAL Uncaught Error: Call to a member function update_meta_data() on array in /var/www/testapp/wp-content/themes/storefront/functions.php:340
+Stack trace:
+#0 /var/www/testapp/wp-includes/shortcodes.php(433): createProduct()
+#1 [internal function]: do_shortcode_tag()
+#2 /var/www/testapp/wp-includes/shortcodes.php(273): preg_replace_callback()
+#3 /var/www/testapp/wp-includes/class-wp-hook.php(310): do_shortcode()
+#4 /var/www/testapp/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#5 /var/www/testapp/wp-includes/post-template.php(256): apply_filters()
+#6 /var/www/testapp/wp-content/themes/storefront/inc/storefront-template-functions.php(352): the_content()
+#7 /var/www/testapp/wp-includes/class-wp-hook.php(310): storefront_page_content()
+#8 /var/www/testapp/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#9 /var/www/testapp/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /var/www/testapp/wp-content/themes/storefront/content-page.php(18): do_action()
+#11 /var/www/testapp/wp-includes/template.php(787): require('...')
+#12 /var/www/testapp/wp-includes/template.php(720): load_template()
+#13 /var/www/testapp/wp-includes/general-template.php(206): locate_template()
+#14 /var/www/testapp/wp-content/themes/storefront/page.php(24): get_template_part()
+#15 /var/www/testapp/wp-includes/template-loader.php(106): include('...')
+#16 /var/www/testapp/wp-blog-header.php(19): require_once('...')
+#17 /var/www/testapp/index.php(18): require('...')
+#18 {main}
+  thrown in /var/www/testapp/wp-content/themes/storefront/functions.php on line 340
+
+2023-11-02T13:38:26+00:00 CRITICAL Uncaught Error: Call to a member function update_meta_data() on int in /var/www/testapp/wp-content/themes/storefront/functions.php:340
+Stack trace:
+#0 /var/www/testapp/wp-includes/shortcodes.php(433): createProduct()
+#1 [internal function]: do_shortcode_tag()
+#2 /var/www/testapp/wp-includes/shortcodes.php(273): preg_replace_callback()
+#3 /var/www/testapp/wp-includes/class-wp-hook.php(310): do_shortcode()
+#4 /var/www/testapp/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#5 /var/www/testapp/wp-includes/post-template.php(256): apply_filters()
+#6 /var/www/testapp/wp-content/themes/storefront/inc/storefront-template-functions.php(352): the_content()
+#7 /var/www/testapp/wp-includes/class-wp-hook.php(310): storefront_page_content()
+#8 /var/www/testapp/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#9 /var/www/testapp/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /var/www/testapp/wp-content/themes/storefront/content-page.php(18): do_action()
+#11 /var/www/testapp/wp-includes/template.php(787): require('...')
+#12 /var/www/testapp/wp-includes/template.php(720): load_template()
+#13 /var/www/testapp/wp-includes/general-template.php(206): locate_template()
+#14 /var/www/testapp/wp-content/themes/storefront/page.php(24): get_template_part()
+#15 /var/www/testapp/wp-includes/template-loader.php(106): include('...')
+#16 /var/www/testapp/wp-blog-header.php(19): require_once('...')
+#17 /var/www/testapp/index.php(18): require('...')
+#18 {main}
+  thrown in /var/www/testapp/wp-content/themes/storefront/functions.php on line 340
+
+2023-11-02T13:42:08+00:00 CRITICAL Uncaught Error: Call to undefined function update_meta_data() in /var/www/testapp/wp-content/themes/storefront/functions.php:340
+Stack trace:
+#0 /var/www/testapp/wp-includes/shortcodes.php(433): createProduct()
+#1 [internal function]: do_shortcode_tag()
+#2 /var/www/testapp/wp-includes/shortcodes.php(273): preg_replace_callback()
+#3 /var/www/testapp/wp-includes/class-wp-hook.php(310): do_shortcode()
+#4 /var/www/testapp/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#5 /var/www/testapp/wp-includes/post-template.php(256): apply_filters()
+#6 /var/www/testapp/wp-content/themes/storefront/inc/storefront-template-functions.php(352): the_content()
+#7 /var/www/testapp/wp-includes/class-wp-hook.php(310): storefront_page_content()
+#8 /var/www/testapp/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#9 /var/www/testapp/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /var/www/testapp/wp-content/themes/storefront/content-page.php(18): do_action()
+#11 /var/www/testapp/wp-includes/template.php(787): require('...')
+#12 /var/www/testapp/wp-includes/template.php(720): load_template()
+#13 /var/www/testapp/wp-includes/general-template.php(206): locate_template()
+#14 /var/www/testapp/wp-content/themes/storefront/page.php(24): get_template_part()
+#15 /var/www/testapp/wp-includes/template-loader.php(106): include('...')
+#16 /var/www/testapp/wp-blog-header.php(19): require_once('...')
+#17 /var/www/testapp/index.php(18): require('...')
+#18 {main}
+  thrown in /var/www/testapp/wp-content/themes/storefront/functions.php on line 340
+
+2023-11-02T18:55:20+00:00 CRITICAL syntax error, unexpected token "<" in /var/www/testapp/wp-content/themes/storefront/functions.php on line 400
+
+2023-11-02T19:01:20+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/testapp/wp-content/themes/storefront/functions.php:371
+Stack trace:
+#0 /var/www/testapp/wp-includes/shortcodes.php(433): createProduct()
+#1 [internal function]: do_shortcode_tag()
+#2 /var/www/testapp/wp-includes/shortcodes.php(273): preg_replace_callback()
+#3 /var/www/testapp/wp-includes/class-wp-hook.php(310): do_shortcode()
+#4 /var/www/testapp/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#5 /var/www/testapp/wp-includes/post-template.php(256): apply_filters()
+#6 /var/www/testapp/wp-content/themes/storefront/inc/storefront-template-functions.php(352): the_content()
+#7 /var/www/testapp/wp-includes/class-wp-hook.php(310): storefront_page_content()
+#8 /var/www/testapp/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#9 /var/www/testapp/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /var/www/testapp/wp-content/themes/storefront/content-page.php(18): do_action()
+#11 /var/www/testapp/wp-includes/template.php(787): require('...')
+#12 /var/www/testapp/wp-includes/template.php(720): load_template()
+#13 /var/www/testapp/wp-includes/general-template.php(206): locate_template()
+#14 /var/www/testapp/wp-content/themes/storefront/page.php(24): get_template_part()
+#15 /var/www/testapp/wp-includes/template-loader.php(106): include('...')
+#16 /var/www/testapp/wp-blog-header.php(19): require_once('...')
+#17 /var/www/testapp/index.php(18): require('...')
+#18 {main}
+  thrown in /var/www/testapp/wp-content/themes/storefront/functions.php on line 371
+
+2023-11-02T19:02:08+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/testapp/wp-content/themes/storefront/functions.php:371
+Stack trace:
+#0 /var/www/testapp/wp-includes/shortcodes.php(433): createProduct()
+#1 [internal function]: do_shortcode_tag()
+#2 /var/www/testapp/wp-includes/shortcodes.php(273): preg_replace_callback()
+#3 /var/www/testapp/wp-includes/class-wp-hook.php(310): do_shortcode()
+#4 /var/www/testapp/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#5 /var/www/testapp/wp-includes/post-template.php(256): apply_filters()
+#6 /var/www/testapp/wp-content/themes/storefront/inc/storefront-template-functions.php(352): the_content()
+#7 /var/www/testapp/wp-includes/class-wp-hook.php(310): storefront_page_content()
+#8 /var/www/testapp/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#9 /var/www/testapp/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /var/www/testapp/wp-content/themes/storefront/content-page.php(18): do_action()
+#11 /var/www/testapp/wp-includes/template.php(787): require('...')
+#12 /var/www/testapp/wp-includes/template.php(720): load_template()
+#13 /var/www/testapp/wp-includes/general-template.php(206): locate_template()
+#14 /var/www/testapp/wp-content/themes/storefront/page.php(24): get_template_part()
+#15 /var/www/testapp/wp-includes/template-loader.php(106): include('...')
+#16 /var/www/testapp/wp-blog-header.php(19): require_once('...')
+#17 /var/www/testapp/index.php(18): require('...')
+#18 {main}
+  thrown in /var/www/testapp/wp-content/themes/storefront/functions.php on line 371
+
+2023-11-02T19:02:10+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/testapp/wp-content/themes/storefront/functions.php:371
+Stack trace:
+#0 /var/www/testapp/wp-includes/shortcodes.php(433): createProduct()
+#1 [internal function]: do_shortcode_tag()
+#2 /var/www/testapp/wp-includes/shortcodes.php(273): preg_replace_callback()
+#3 /var/www/testapp/wp-includes/class-wp-hook.php(310): do_shortcode()
+#4 /var/www/testapp/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#5 /var/www/testapp/wp-includes/post-template.php(256): apply_filters()
+#6 /var/www/testapp/wp-content/themes/storefront/inc/storefront-template-functions.php(352): the_content()
+#7 /var/www/testapp/wp-includes/class-wp-hook.php(310): storefront_page_content()
+#8 /var/www/testapp/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#9 /var/www/testapp/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /var/www/testapp/wp-content/themes/storefront/content-page.php(18): do_action()
+#11 /var/www/testapp/wp-includes/template.php(787): require('...')
+#12 /var/www/testapp/wp-includes/template.php(720): load_template()
+#13 /var/www/testapp/wp-includes/general-template.php(206): locate_template()
+#14 /var/www/testapp/wp-content/themes/storefront/page.php(24): get_template_part()
+#15 /var/www/testapp/wp-includes/template-loader.php(106): include('...')
+#16 /var/www/testapp/wp-blog-header.php(19): require_once('...')
+#17 /var/www/testapp/index.php(18): require('...')
+#18 {main}
+  thrown in /var/www/testapp/wp-content/themes/storefront/functions.php on line 371
+
+2023-11-02T19:02:11+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/testapp/wp-content/themes/storefront/functions.php:371
+Stack trace:
+#0 /var/www/testapp/wp-includes/shortcodes.php(433): createProduct()
+#1 [internal function]: do_shortcode_tag()
+#2 /var/www/testapp/wp-includes/shortcodes.php(273): preg_replace_callback()
+#3 /var/www/testapp/wp-includes/class-wp-hook.php(310): do_shortcode()
+#4 /var/www/testapp/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#5 /var/www/testapp/wp-includes/post-template.php(256): apply_filters()
+#6 /var/www/testapp/wp-content/themes/storefront/inc/storefront-template-functions.php(352): the_content()
+#7 /var/www/testapp/wp-includes/class-wp-hook.php(310): storefront_page_content()
+#8 /var/www/testapp/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#9 /var/www/testapp/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /var/www/testapp/wp-content/themes/storefront/content-page.php(18): do_action()
+#11 /var/www/testapp/wp-includes/template.php(787): require('...')
+#12 /var/www/testapp/wp-includes/template.php(720): load_template()
+#13 /var/www/testapp/wp-includes/general-template.php(206): locate_template()
+#14 /var/www/testapp/wp-content/themes/storefront/page.php(24): get_template_part()
+#15 /var/www/testapp/wp-includes/template-loader.php(106): include('...')
+#16 /var/www/testapp/wp-blog-header.php(19): require_once('...')
+#17 /var/www/testapp/index.php(18): require('...')
+#18 {main}
+  thrown in /var/www/testapp/wp-content/themes/storefront/functions.php on line 371
+
+2023-11-02T19:02:52+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/testapp/wp-content/themes/storefront/functions.php:371
+Stack trace:
+#0 /var/www/testapp/wp-includes/shortcodes.php(433): createProduct()
+#1 [internal function]: do_shortcode_tag()
+#2 /var/www/testapp/wp-includes/shortcodes.php(273): preg_replace_callback()
+#3 /var/www/testapp/wp-includes/class-wp-hook.php(310): do_shortcode()
+#4 /var/www/testapp/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#5 /var/www/testapp/wp-includes/post-template.php(256): apply_filters()
+#6 /var/www/testapp/wp-content/themes/storefront/inc/storefront-template-functions.php(352): the_content()
+#7 /var/www/testapp/wp-includes/class-wp-hook.php(310): storefront_page_content()
+#8 /var/www/testapp/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#9 /var/www/testapp/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /var/www/testapp/wp-content/themes/storefront/content-page.php(18): do_action()
+#11 /var/www/testapp/wp-includes/template.php(787): require('...')
+#12 /var/www/testapp/wp-includes/template.php(720): load_template()
+#13 /var/www/testapp/wp-includes/general-template.php(206): locate_template()
+#14 /var/www/testapp/wp-content/themes/storefront/page.php(24): get_template_part()
+#15 /var/www/testapp/wp-includes/template-loader.php(106): include('...')
+#16 /var/www/testapp/wp-blog-header.php(19): require_once('...')
+#17 /var/www/testapp/index.php(18): require('...')
+#18 {main}
+  thrown in /var/www/testapp/wp-content/themes/storefront/functions.php on line 371
+
+2023-11-02T19:02:58+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/testapp/wp-content/themes/storefront/functions.php:371
+Stack trace:
+#0 /var/www/testapp/wp-includes/shortcodes.php(433): createProduct()
+#1 [internal function]: do_shortcode_tag()
+#2 /var/www/testapp/wp-includes/shortcodes.php(273): preg_replace_callback()
+#3 /var/www/testapp/wp-includes/class-wp-hook.php(310): do_shortcode()
+#4 /var/www/testapp/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#5 /var/www/testapp/wp-includes/post-template.php(256): apply_filters()
+#6 /var/www/testapp/wp-content/themes/storefront/inc/storefront-template-functions.php(352): the_content()
+#7 /var/www/testapp/wp-includes/class-wp-hook.php(310): storefront_page_content()
+#8 /var/www/testapp/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#9 /var/www/testapp/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /var/www/testapp/wp-content/themes/storefront/content-page.php(18): do_action()
+#11 /var/www/testapp/wp-includes/template.php(787): require('...')
+#12 /var/www/testapp/wp-includes/template.php(720): load_template()
+#13 /var/www/testapp/wp-includes/general-template.php(206): locate_template()
+#14 /var/www/testapp/wp-content/themes/storefront/page.php(24): get_template_part()
+#15 /var/www/testapp/wp-includes/template-loader.php(106): include('...')
+#16 /var/www/testapp/wp-blog-header.php(19): require_once('...')
+#17 /var/www/testapp/index.php(18): require('...')
+#18 {main}
+  thrown in /var/www/testapp/wp-content/themes/storefront/functions.php on line 371
+
+2023-11-02T19:05:14+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/testapp/wp-content/themes/storefront/functions.php:371
+Stack trace:
+#0 /var/www/testapp/wp-includes/shortcodes.php(433): createProduct()
+#1 [internal function]: do_shortcode_tag()
+#2 /var/www/testapp/wp-includes/shortcodes.php(273): preg_replace_callback()
+#3 /var/www/testapp/wp-includes/class-wp-hook.php(310): do_shortcode()
+#4 /var/www/testapp/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#5 /var/www/testapp/wp-includes/post-template.php(256): apply_filters()
+#6 /var/www/testapp/wp-content/themes/storefront/inc/storefront-template-functions.php(352): the_content()
+#7 /var/www/testapp/wp-includes/class-wp-hook.php(310): storefront_page_content()
+#8 /var/www/testapp/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#9 /var/www/testapp/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /var/www/testapp/wp-content/themes/storefront/content-page.php(18): do_action()
+#11 /var/www/testapp/wp-includes/template.php(787): require('...')
+#12 /var/www/testapp/wp-includes/template.php(720): load_template()
+#13 /var/www/testapp/wp-includes/general-template.php(206): locate_template()
+#14 /var/www/testapp/wp-content/themes/storefront/page.php(24): get_template_part()
+#15 /var/www/testapp/wp-includes/template-loader.php(106): include('...')
+#16 /var/www/testapp/wp-blog-header.php(19): require_once('...')
+#17 /var/www/testapp/index.php(18): require('...')
+#18 {main}
+  thrown in /var/www/testapp/wp-content/themes/storefront/functions.php on line 371
+

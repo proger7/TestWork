@@ -1,0 +1,22 @@
+2023-10-31T06:22:14+00:00 ERROR Error getting data feed
+2023-10-31T06:22:14+00:00 ERROR WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 7: Failed to connect to woocommerce.com port 443 after 2796 ms: No route to host
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
